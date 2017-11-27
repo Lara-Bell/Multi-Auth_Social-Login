@@ -5,5 +5,43 @@
 // Variables
 @import "variables";
 
-// Bootstrap
+// Bootstrap 3.3.7
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// FontAwesome
+@import "./bower_components/font-awesome/scss/font-awesome.scss";
+
+// Bootstrap-Social
+@import "./bower_components/bootstrap-social/bootstrap-social.scss";
+
+.register,.login{
+  color: #666;
+  font-size: 34px;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.divider{
+  background: #ddd;
+  height: 2px;
+  display: block;
+  position: relative;
+  width: 80%;
+  margin: 30px auto;
+}
+.divider span{
+  width: 30px;
+  height: 20px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  margin-left: -10px;
+  top: -12px;
+  text-align: center;
+  color: #999;
+}
+.m-5{
+  margin: 5px;
+}
