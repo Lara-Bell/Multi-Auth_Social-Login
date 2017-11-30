@@ -7,6 +7,7 @@
 ## How to use
 
 ### Download
+
 ```
 git clone https://github.com/Lara-Bell/Multi-Auth_Social-Login.git multi_auth
 
