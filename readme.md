@@ -14,6 +14,7 @@ git clone https://github.com/Lara-Bell/Multi-Auth_Social-Login.git multi_auth
 cd multi_auth
 ```
 
+
 ### Install
 
 ```
@@ -49,6 +50,7 @@ GOOGLE_CLIENT_ID=
 GOOGLE_CLIENT_SECRET=
 GOOGLE_URL_CALLBACK=http://YOUR_DOMAIN/login/google/callback
 ```
+
 
 ## Support Social Login
 
